@@ -1,0 +1,21 @@
+package com.kiran;
+import java.io.*;
+import java.util.*;
+public class Trail
+{
+    public static void main(String[]args)
+    {
+        int a,b,c,d,e;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter A value : ");
+        a=input.nextInt();
+        System.out.println("Enter B value : ");
+        b=input.nextInt();
+        System.out.println("Enter C value : ");
+        c=input.nextInt();
+        System.out.println("Enter D value : ");
+        d=input.nextInt();
+        e=a+b+c+d;
+        System.out.println("Sum Of these Numbers are : "+e);
+    }
+}
